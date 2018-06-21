@@ -1,0 +1,74 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Times New Roman;
+  background-image: url("../images/playmillion-roulette.jpg");
+  background-size: cover;
+  text-align: center;
+}
+h1 {
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  background-color: white;
+  border: 4mm ridge white;
+  border-radius: 35px;
+  width: 500px;
+  padding: 2px;
+  margin: 10px;
+}
+section {
+    text-align: center;
+    margin-right: 900px;
+    padding: 5%;
+}
+p {
+  font-size: 40px;
+  color: white;
+}
+input {
+  text-align: center;
+  width: 100px;
+  height: 25px;
+}
+footer p {
+  font-size: 25px;
+  color: white;
+  text-align: left;
+}
+#ok {
+  color: #C6C600;
+  font-size: 20px;
+  font-weight: bold;
+}
+#resultat {
+  font-size: 20px;
+}
+.botton {
+  font-size: 20px;
+  background-color: yellow;
+  font-weight: bold;
+}
+@media screen and (max-width: 1280px)
+{
+  body {
+    background-image: none;
+    background-color: #E800B9;
+  }
+  h1 {
+  font-size: 20px;
+  width: 200px;
+  padding: auto;
+  margin: auto;
+}
+section {
+    text-align: center;
+    margin-right: auto;
+    padding: auto;
+}
+  p {
+    font-size: 30px;
+  }
+  footer p {
+  font-size: 15px;
+}
