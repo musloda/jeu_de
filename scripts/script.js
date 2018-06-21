@@ -15,7 +15,7 @@ function CompareValueTab()
           document.getElementById("resultat").innerHTML = "Bravo ! Vous avez deviné ce nombre en " + ListValueTab + " essai(s).";
         tab = new Array();
         ListValueTab = 1;
-        document.getElementById("ok").innerHTML = "";
+        document.getElementById("ok").innerHTML = "Relancer le dé";
         }
       else if(document.getElementById("redaction").value > solution)
         {
